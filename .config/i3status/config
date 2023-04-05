@@ -1,0 +1,22 @@
+#
+# Gb's i3 status bar UwU <3
+#
+
+# this file should be edited as UTF-8. test:
+# ß
+# if the above line is not correctly displayed, fix your editor first!
+# use either Emacs or Vim to have a good unicode support 👍
+
+general {
+    colors = true
+    interval = 5
+    color_good = "#50fa7b"
+    color_degraded = "#f1fa8c"
+    color_bad = "#ff5555"
+}
+
+order += "tztime local"
+
+tztime local {
+    format = "%a %b %d, %H:%M"
+}
