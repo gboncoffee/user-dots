@@ -1,4 +1,4 @@
-XTerm.vt100.faceName: Cascadia Code:size=18:antialias=false
+XTerm.vt100.faceName: CaskaydiaCove Nerd Font Mono:size=18
 
 XTerm.vt100.background: rgb:28/2a/36
 XTerm.vt100.foreground: rgb:f8/f8/f2
@@ -19,3 +19,5 @@ XTerm.vt100.color12: rgb:d6/ac/ff
 XTerm.vt100.color13: rgb:ff/92/df
 XTerm.vt100.color14: rgb:a4/ff/ff
 XTerm.vt100.color15: rgb:ff/ff/ff
+
+XTerm.vt100.metaSendsEscape: true
