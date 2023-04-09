@@ -58,7 +58,7 @@ bindsym Mod4+Shift+$right move right
 bindsym Mod4+Shift+f fullscreen toggle
 
 # change container layout
-bindsym Mod4+Tab layout toggle splitv splith
+bindsym Mod4+Tab layout toggle tabbed splitv splith
 bindsym Mod4+Shift+s split vertical
 bindsym Mod4+Shift+v split horizontal
 bindsym Mod4+Shift+a layout default
@@ -129,9 +129,9 @@ mode "resize" {
 
 bindsym Mod4+Shift+r mode "resize"
 
-workspace_layout default
+workspace_layout tabbed
 default_orientation vertical
-default_border pixel 2
+default_border normal 2
 default_floating_border normal 2
 
 client.focused #367bf0 #367bf0 #272a34 #367bf0 #367bf0
@@ -143,7 +143,7 @@ client.placeholder #272a34 #272a34 #ffffff #272a34 #198388
 bar {
     status_command i3status
     separator_symbol " | "
-    position top
+    position bottom
     colors {
         background #272a34
         statusline #ffffff
