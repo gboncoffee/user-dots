@@ -29,6 +29,6 @@ fi
 export BROWSER=firefox
 export TERMINAL=xterm
 export EDITOR=vim
-export PYTHONSTARTUP="$XDG_CONFIG_HOME/pyrc.py"
-export GTK_THEME=Mint-Y-Dark-Purple
+export PYTHONSTARTUP="$HOME/.config/pyrc.py"
+export GTK_THEME=Mint-Y-Dark-Blue
 export PATH="$PATH:$HOME/.local/bin:$HOME/opt/bin"
