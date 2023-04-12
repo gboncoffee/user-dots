@@ -119,7 +119,7 @@ map global normal <tab> ":bn<ret>"
 map global normal <s-tab> ":bp<ret>"
 
 declare-user-mode cmd
-map global -docstring "Open a terminal" cmd <ret> ":terminal zsh<ret>"
+map global -docstring "Open a terminal" cmd <ret> ":terminal bash<ret>"
 map global -docstring "Compile" cmd b ":make <up>"
 map global -docstring "Check compilation log" cmd t ":buffer *make*<ret>"
 map global -docstring "Open a new window" cmd w ":new<ret>"
