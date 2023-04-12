@@ -3,8 +3,8 @@
  */
 configuration {
     modi: "run";
-    font: "CaskaydiaCove Nerd Font 18";
-    terminal: "alacritty";
+    font: "Cascadia Code 18";
+    terminal: "xterm";
     case-sensitive: false;
     sidebar-mode: false;
     max-history-size: 25;
