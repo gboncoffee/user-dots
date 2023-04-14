@@ -24,10 +24,6 @@ if getenv('TERM') == 'alacritty'
     &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
 endif
 
-if has('termguicolors')
-    set termguicolors
-endif
-
 # PLUGINS SETUP {{{
 g:Run_run_before = 'sp | wincmd J'
 g:Run_compilewin_cur = 1
@@ -43,8 +39,6 @@ plug#begin()
     # editing
     Plug 'junegunn/vim-easy-align'
     Plug 'tpope/vim-commentary'
-    # colors
-    Plug 'dracula/vim'
 plug#end()
 # }}}
 
@@ -109,5 +103,3 @@ augroup FiletypeSettings
     autocmd FileType qf,fugitive,git,gitcommit,run-compiler nnoremap <buffer> q :bd<CR>
 augroup END
 # }}}
-
-colorscheme dracula
