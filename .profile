@@ -32,3 +32,4 @@ export EDITOR=vim
 export PYTHONSTARTUP="$HOME/.config/pyrc.py"
 export GTK_THEME=Mint-Y-Dark-Blue
 export PATH="$PATH:$HOME/.local/bin:$HOME/opt/bin"
+. "$HOME/.cargo/env"
