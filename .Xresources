@@ -1,23 +1,23 @@
 XTerm.vt100.faceName: CaskaydiaCove Nerd Font Mono:size=18
 
-XTerm.vt100.background: rgb:27/2A/34
-XTerm.vt100.foreground: rgb:FF/FF/FF
+XTerm.vt100.background: rgb:1E/1E/2E
+XTerm.vt100.foreground: rgb:CD/D6/F4
 
-XTerm.vt100.color0: rgb:1F/22/29
-XTerm.vt100.color1: rgb:D4/19/19
-XTerm.vt100.color2: rgb:5E/BD/AB
-XTerm.vt100.color3: rgb:FE/A4/4C
-XTerm.vt100.color4: rgb:36/7b/f0
-XTerm.vt100.color5: rgb:97/55/b3
-XTerm.vt100.color6: rgb:49/AE/E6
-XTerm.vt100.color7: rgb:E6/E6/E6
-XTerm.vt100.color8: rgb:19/83/88
-XTerm.vt100.color9: rgb:EC/01/01
-XTerm.vt100.color10: rgb:47/D4/B9
-XTerm.vt100.color11: rgb:FF/8A/18
-XTerm.vt100.color12: rgb:27/7F/FF
-XTerm.vt100.color13: rgb:96/2a/c3
-XTerm.vt100.color14: rgb:05/A1/F7
-XTerm.vt100.color15: rgb:FF/FF/FF
+XTerm.vt100.color0: rgb:45/47/5A
+XTerm.vt100.color1: rgb:F3/8B/A8
+XTerm.vt100.color2: rgb:A6/E3/A1
+XTerm.vt100.color3: rgb:F9/E2/AF
+XTerm.vt100.color4: rgb:89/B4/FA
+XTerm.vt100.color5: rgb:F5/C2/E7
+XTerm.vt100.color6: rgb:94/E2/D5
+XTerm.vt100.color7: rgb:BA/C2/DE
+XTerm.vt100.color8: rgb:58/5B/70
+XTerm.vt100.color9: rgb:F3/8B/A8
+XTerm.vt100.color10: rgb:A6/E3/A1
+XTerm.vt100.color11: rgb:F9/E2/AF
+XTerm.vt100.color12: rgb:89/B4/FA
+XTerm.vt100.color13: rgb:F5/C2/E7
+XTerm.vt100.color14: rgb:94/E2/D5
+XTerm.vt100.color15: rgb:A6/AD/C8
 
 XTerm.vt100.metaSendsEscape: true

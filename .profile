@@ -30,6 +30,6 @@ export BROWSER=firefox
 export TERMINAL=xterm
 export EDITOR=vim
 export PYTHONSTARTUP="$HOME/.config/pyrc.py"
-export GTK_THEME=Mint-Y-Dark-Blue
+export GTK_THEME=Mint-Y-Dark-Pink
 export PATH="$PATH:$HOME/.local/bin:$HOME/opt/bin"
 . "$HOME/.cargo/env"
