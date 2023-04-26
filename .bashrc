@@ -117,4 +117,5 @@ fi
 bind '"\C-k":history-search-backward'
 bind '"\C-j":history-search-forward'
 
-echo '( .-.)'
+echo '/\_/\'
+echo '=^.^='
