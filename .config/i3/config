@@ -135,7 +135,7 @@ default_border normal 2
 default_floating_border normal 2
 
 client.focused #F5C2E7 #F5C2E7 #1E1E2E #F5C2E7 #F5C2E7
-client.focused_inactive #94E2D5 #94E2D5 #1E1E2E #94E2D5 #94E2D5
+client.focused_inactive #89B4FA #89B4FA #1E1E2E #89B4FA #89B4FA
 client.unfocused #1E1E2E #1E1E2E #CDD6F4 #1E1E2E #1E1E2E
 client.urgent #F38BA8 #F38BA8 #CDD6F4 #F38BA8 #F38BA8
 client.placeholder #1E1E2E #1E1E2E #CDD6F4 #1E1E2E #198388
@@ -151,6 +151,6 @@ bar {
         focused_workspace #F5C2E7 #F5C2E7 #1E1E2E
         active_workspace #1E1E2E #1E1E2E #CDD6F4
         inactive_workspace #1E1E2E #1E1E2E #CDD6F4
-        binding_mode #94E2D5 #94E2D5 #1E1E2E
+        binding_mode #89B4FA #89B4FA #1E1E2E
     }
 }
