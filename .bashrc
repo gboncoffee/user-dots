@@ -114,6 +114,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# if on kitty, create the alias for ssh
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
 bind '"\C-k":history-search-backward'
 bind '"\C-j":history-search-forward'
 
