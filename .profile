@@ -27,7 +27,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export BROWSER=firefox
-export TERMINAL=xterm
 export EDITOR=vim
 export PYTHONSTARTUP="$HOME/.config/pyrc.py"
 export GTK_THEME=Mint-Y-Dark-Pink

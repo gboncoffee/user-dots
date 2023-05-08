@@ -2,7 +2,7 @@
 # Gb's i3 WM <3 UwU
 #
 
-font pango:Cascadia Code 12
+font pango:CaskaydiaCove Nerd Font Mono 12
 
 exec --no-startup-id nitrogen --restore
 
@@ -13,7 +13,7 @@ set $down j
 set $left h
 set $right l
 
-set $terminal xterm
+set $terminal kitty
 
 floating_modifier Mod4
 for_window [class="^floating$"] floating enable
