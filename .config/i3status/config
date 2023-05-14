@@ -15,7 +15,24 @@ general {
     color_bad = "#F38BA8"
 }
 
+order += "cpu_temperature 0"
+order += "volume master"
 order += "tztime local"
+
+cpu_temperature 0 {
+    format = "Coffee: %degrees °C"
+    max_threshold = 55
+    format_above_threshold = "Coffee: %degrees °C Too Hot!"
+    path = "/sys/class/thermal/thermal_zone0/temp"
+}
+
+volume master {
+    device = "pulse"
+    format = "VOL %volume"
+    format_muted = "VOL mut"
+    mixer = "Master"
+    mixer_idx = 0
+}
 
 tztime local {
     format = "%a %b %d, %H:%M"
