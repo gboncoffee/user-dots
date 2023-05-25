@@ -26,6 +26,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# adding local Go install
+export PATH="$PATH:$HOME/.local/share/go/bin"
+export GOROOT="$HOME/.local/share/go"
+
 export BROWSER=firefox
 export EDITOR=vim
 export PYTHONSTARTUP="$HOME/.config/pyrc.py"
