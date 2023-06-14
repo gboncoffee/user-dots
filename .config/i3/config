@@ -18,10 +18,6 @@ set $terminal kitty
 floating_modifier Mod4
 for_window [class="^floating$"] floating enable
 for_window [class="^feh$"] floating enable
-for_window [class="^qjackctl"] floating enable
-for_window [class="^QjackCtl"] floating enable
-for_window [class="^guitarix"] floating enable
-for_window [class="^Guitarix"] floating enable
 for_window [class="^dunst"] floating enable
 for_window [class="^Dunst"] floating enable
 
@@ -30,11 +26,8 @@ bindsym Mod4+n exec "$BROWSER"
 # terminal
 bindsym Mod4+Return exec "$TERMINAL"
 bindsym Mod4+c exec "$TERMINAL -e python"
-bindsym Mod4+t exec "$TERMINAL -e htop"
 bindsym Mod4+f exec "$TERMINAL -e nnn"
 bindsym Mod4+e exec "thunderbird"
-
-bindsym Mod4+p exec "gnome-screenshot -i"
 
 # dmenu/rofi
 bindsym Mod4+a exec --no-startup-id rofi -show run
@@ -130,28 +123,26 @@ mode "resize" {
 
 bindsym Mod4+Shift+r mode "resize"
 
-workspace_layout tabbed
-default_orientation vertical
 default_border normal 2
 default_floating_border normal 2
 
-client.focused #F5C2E7 #F5C2E7 #1E1E2E #F5C2E7 #F5C2E7
-client.focused_inactive #89B4FA #89B4FA #1E1E2E #89B4FA #89B4FA
-client.unfocused #1E1E2E #1E1E2E #CDD6F4 #1E1E2E #1E1E2E
-client.urgent #F38BA8 #F38BA8 #CDD6F4 #F38BA8 #F38BA8
-client.placeholder #1E1E2E #1E1E2E #CDD6F4 #1E1E2E #198388
+client.focused #ae81ff #ae81ff #272822 #ae81ff #ae81ff
+client.focused_inactive #66d9ef #66d9ef #272822 #66d9ef #66d9ef
+client.unfocused #272822 #272822 #a1efe4 #272822 #272822
+client.urgent #f92672 #f92672 #a1efe4 #f92672 #f92672
+client.placeholder #272822 #272822 #a1efe4 #272822 #a6e22e
 
 bar {
     status_command i3status
     separator_symbol " | "
     position bottom
     colors {
-        background #1E1E2E
-        statusline #CDD6F4
+        background #272822
+        statusline #a1efe4
         separator #6272a4
-        focused_workspace #F5C2E7 #F5C2E7 #1E1E2E
-        active_workspace #1E1E2E #1E1E2E #CDD6F4
-        inactive_workspace #1E1E2E #1E1E2E #CDD6F4
-        binding_mode #89B4FA #89B4FA #1E1E2E
+        focused_workspace #ae81ff #ae81ff #272822
+        active_workspace #272822 #272822 #a1efe4
+        inactive_workspace #272822 #272822 #a1efe4
+        binding_mode #66d9ef #66d9ef #272822
     }
 }
