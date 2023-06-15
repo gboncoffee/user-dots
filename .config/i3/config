@@ -13,7 +13,7 @@ set $down j
 set $left h
 set $right l
 
-set $terminal kitty
+set $terminal st
 
 floating_modifier Mod4
 for_window [class="^floating$"] floating enable
@@ -113,8 +113,8 @@ mode "resize" {
         bindsym $down       resize shrink height 10 px or 1 ppt
         bindsym $up         resize grow height 10 px or 1 ppt
         bindsym $right      resize shrink width 10 px or 1 ppt
-	bindsym s           resize grow height 5px or 1ppt
-	bindsym v           resize grow width 5px or 1ppt
+        bindsym s           resize grow height 5px or 1ppt
+        bindsym v           resize grow width 5px or 1ppt
 
         bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -138,7 +138,7 @@ bar {
     position bottom
     colors {
         background #272822
-        statusline #a1efe4
+        statusline #f8f8f2
         separator #6272a4
         focused_workspace #ae81ff #ae81ff #272822
         active_workspace #272822 #272822 #a1efe4
