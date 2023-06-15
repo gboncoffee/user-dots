@@ -51,6 +51,8 @@ fi
 # if on kitty, create the alias for ssh
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
+alias n=nnn
+
 if [ -t 1 ]
 then
     bind '"\C-k":history-search-backward'
