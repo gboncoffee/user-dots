@@ -126,23 +126,23 @@ bindsym Mod4+Shift+r mode "resize"
 default_border normal 2
 default_floating_border normal 2
 
-client.focused #ae81ff #ae81ff #272822 #ae81ff #ae81ff
-client.focused_inactive #66d9ef #66d9ef #272822 #66d9ef #66d9ef
-client.unfocused #272822 #272822 #a1efe4 #272822 #272822
-client.urgent #f92672 #f92672 #a1efe4 #f92672 #f92672
-client.placeholder #272822 #272822 #a1efe4 #272822 #a6e22e
+client.focused #bd93f9 #bd93f9 #282a36 #bd93f9 #ff79c6
+client.focused_inactive #ff79c6 #ff79c6 #282a36 #bd93f9 #ff79c6
+client.unfocused #282a36 #282a36 #f8f8f2 #282a36 #44475a
+client.urgent #ff5555 #ff5555 #f8f8f2 #ff5555 #44475a
+client.placeholder #282a36 #282a36 #f8f8f2 #282a36 #44475a
 
 bar {
     status_command i3status
     separator_symbol " | "
     position bottom
     colors {
-        background #272822
+        background #282a36
         statusline #f8f8f2
-        separator #6272a4
-        focused_workspace #ae81ff #ae81ff #272822
-        active_workspace #272822 #272822 #a1efe4
-        inactive_workspace #272822 #272822 #a1efe4
-        binding_mode #66d9ef #66d9ef #272822
+        separator #44475a
+        focused_workspace #bd93f9 #bd93f9 #282a36
+        active_workspace #282a36 #282a36 #f8f8f2
+        inactive_workspace #282a36 #282a36 #f8f8f2
+        binding_mode #ff79c6 #ff79c6 #282a36
     }
 }
