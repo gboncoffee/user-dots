@@ -23,7 +23,7 @@ yellow=$(tput setaf 3)
 blue=$(tput setaf 4)
 green=$(tput setaf 2)
 cyan=$(tput setaf 6)
-PS1="\\[$cyan\\]\\u\\[$bold\\]\\[$white\\]@\\[$reset\\]\\[$magenta\\]\\h\\[$bold\\]\\[$green\\] :: \\[$blue\\]\\w \\[$yellow\\]λ\\[$reset\\] "
+PS1="\\[$cyan\\]\\u\\[$bold\\]\\[$white\\]@\\[$reset\\]\\[$magenta\\]\\h\\[$bold\\]\\[$green\\] :: \\[$blue\\]\\w\n\\[$yellow\\]λ\\[$reset\\] "
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -58,6 +58,6 @@ then
     bind '"\C-k":history-search-backward'
     bind '"\C-j":history-search-forward'
 
-    echo '/\_/\'
-    echo '=^.^='
+    echo "$blue/\\${magenta}_$blue/\\"
+    echo "$green=$cyan^$yellow.$cyan^$green="
 fi
