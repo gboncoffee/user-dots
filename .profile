@@ -34,4 +34,4 @@ export BROWSER=firefox
 export EDITOR=vim
 export PYTHONSTARTUP="$HOME/.config/pyrc.py"
 export GTK_THEME=Mint-Y-Dark-Purple
-export PATH="$PATH:$HOME/opt/bin:$HOME/.local/bin"
+export PATH="$HOME/opt/bin:$HOME/.local/bin:$PATH"
